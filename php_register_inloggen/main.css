@@ -1,0 +1,103 @@
+
+:root{
+  --main-bg-color:#0055DD;
+}
+body {
+  height: 980px;
+  margin: 0;
+  padding: 0;
+  /*background-color: greenyellow;*/
+}
+/*img{*/
+/*  border-radius: 50%;*/
+/*  height:200px;*/
+/*}*/
+
+header {
+  /*height: 30px;*/
+  margin: 0 0 30px 0;
+  padding: 10px 20px;
+  background:var(--main-bg-color);
+  color: white;
+
+}
+header h1{
+  margin: 0;
+  padding: auto;
+}
+.home{
+  margin-bottom: 30px;
+}
+nav {
+  /*width: 980px;*/
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul {
+  /*width: 980px;*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  /*margin-right: 1em;*/
+  text-align: center;
+}
+nav ul li a{
+ /*margin-left: 300px;*/
+  text-align: center;
+
+ }
+
+#content {
+  width: 920px;
+  min-height: 200px;
+  padding: 0 30px;
+  margin-left: 150px;
+}
+
+.index_van  ul li a{
+  padding: 10px 25px;
+  margin: 30px;
+
+}
+footer {
+  margin: 0 ;
+  padding: 10px 20px;
+  background: #0055DD;
+  color: white;
+  text-align: center;
+}
+
+/* Actions */
+
+.actions {
+  margin-bottom: 1em;
+
+}
+.my_form{
+  padding: 20px;
+
+}
+.my_form input{
+  margin-left: 40%;
+  width: 300px;
+  margin-top:10px;
+  padding: 10px;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 5px  8px;
+  border: solid 2px rgba(36, 53, 8, 0.83);
+}
+
+.errors{
+  border: solid 2px rgba(255, 9, 17, 0.83);
+}
+.mail_span{
+  font-size: 30px;
+  color: #0055DD;
+}
